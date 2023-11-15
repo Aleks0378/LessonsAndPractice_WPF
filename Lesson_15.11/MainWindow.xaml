@@ -1,0 +1,38 @@
+﻿<Window x:Class="Lesson_15._11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lesson_15._11"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="400">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <WrapPanel Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Button Width="60" Height="30" Content="Navy" Margin="2" Foreground="Navy"/>
+            <Button Width="60" Height="30" Content="Blue" Margin="2" Foreground="Blue"/>
+            <Button Width="60" Height="30" Content="Aqua" Margin="2" Foreground="Aqua"/>
+            <Button Width="60" Height="30" Content="Teal" Margin="2" Foreground="Teal"/>
+            <Button Width="60" Height="30" Content="Olive" Margin="2" Foreground="Olive"/>
+            <Button Width="60" Height="30" Content="Green" Margin="2" Foreground="Green"/>
+            <Button Width="60" Height="30" Content="Lime" Margin="2" Foreground="Lime"/>
+            <Button Width="60" Height="30" Content="Yellow" Margin="2" Foreground="Yellow"/>
+            <Button Width="60" Height="30" Content="Orange" Margin="2" Foreground="Orange"/>
+            <Button Width="60" Height="30" Content="Red" Margin="2" Foreground="Red"/>
+            <Button Width="60" Height="30" Content="Maroon" Margin="2" Foreground="Maroon"/>
+            <Button Width="60" Height="30" Content="Fuchsia" Margin="2" Foreground="Fuchsia"/>
+            <Button Width="60" Height="30" Content="Purple" Margin="2" Foreground="Purple"/>
+            <Button Width="60" Height="30" Content="Black" Margin="2" Foreground="Black"/>
+            <Button Width="60" Height="30" Content="Silver" Margin="2" Foreground="Silver"/>
+            <Button Width="60" Height="30" Content="Gray" Margin="2" Foreground="Gray"/>
+            <Button Width="60" Height="30" Content="White" Margin="2" Foreground="White"/>
+        </WrapPanel>
+    </Grid>
+</Window>
+
+
