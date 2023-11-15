@@ -19,6 +19,7 @@ namespace Lesson_15._11
         public MainWindow()
         {
             InitializeComponent();
+           
         }
     }
 }
