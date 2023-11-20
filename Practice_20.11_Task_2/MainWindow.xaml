@@ -1,0 +1,33 @@
+﻿<Window x:Class="Practice_20._11_Task_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practice_20._11_Task_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DockPanel LastChildFill="False">
+            <ToolBar DockPanel.Dock="Bottom">
+                <TextBox Name="timeTextBox" Width="81"></TextBox>
+            </ToolBar>
+            <ToolBar DockPanel.Dock="Top">
+                <Button Name="SaveButon" Content="Save" ></Button>
+                <Button Name="OpenButon" Content="Open"   ></Button>
+                <Button Name="EditButon" Content="Edit" ></Button>
+                <Button Name="PrintButon" Content="Print" ></Button>
+                <Button Name="ExitButon" Content="Exit" ></Button>
+            </ToolBar>
+            <ToolBarTray Orientation="Vertical">
+                <ToolBar DockPanel.Dock="Left" VerticalAlignment="Top">
+                    <Button Name="ReductButon" Content="Reduct" ></Button>
+                    <Button Name="SaveAsButon" Content="SaveAs"  ></Button>
+                    <Button Name="ViewButon" Content="View" ></Button>
+
+                </ToolBar>
+            </ToolBarTray>
+            
+        </DockPanel>
+
+    </Grid>
+</Window>
